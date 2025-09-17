@@ -1,6 +1,8 @@
 ## 🧠 Mitigating Social Bias from Reasoning-based LLMs with ADBP
 
-This script processes a JSON file of questions using a specified reasoning-based language model and outputs the model's responses into a CSV file.
+ADBP incrementally introduces reasoning steps to isolate their influence on the final answer. It selects the answer if all answers are consistent across reasoning steps and resolves ambiguity through a targeted comparison of conflicting answers and their associated reasoning.
+
+This script processes a JSON file of questions using a specified reasoning-based LLM and outputs the model's responses into a CSV file.
 
 ### 📌 Usage
 
